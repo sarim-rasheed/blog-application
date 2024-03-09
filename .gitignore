@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-# Ingore Enviornment Variables
+# Ingore Enviornment Variables...
 *.env
 # Editor directories and files
 .vscode/*

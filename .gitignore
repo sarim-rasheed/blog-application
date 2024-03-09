@@ -13,8 +13,7 @@ dist-ssr
 *.local
 
 # Ingore Enviornment Variables
-*.cnv
-
+*.env
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

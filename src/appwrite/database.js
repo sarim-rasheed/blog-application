@@ -2,8 +2,10 @@ import { Client, Databases, Query } from 'appwrite';
 import env from '../config/config';
 
 export class DBService {
+    client = new Client();
+    database ;
     constructor() {
-        this.client = new Client().setEndpoint(env.appUrl).setProject(env.projectId);
+        this.client.setEndpoint(env.appUrl).setProject(env.projectId);
         this.database = new Databases(this.client);
     }
 

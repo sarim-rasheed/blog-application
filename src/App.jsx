@@ -1,17 +1,20 @@
-import './App.css'
-import env from './config/config'
-import authService from './appwrite/auth'
+import Layout from './Layout'
+import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from 'react-router-dom'
+
 
 function App() {
+
+  const router =  createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element = {<Layout/>} >
+      </Route>
+    )
+  )
 
 
 return (
     <>
-
- <h1 className="text-3xl font-bold underline">
-      Hello world Here
-      
-    </h1>
+    <RouterProvider router={router}/>
     </>
   )
 }

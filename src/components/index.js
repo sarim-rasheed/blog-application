@@ -6,6 +6,7 @@ import Header from './Header/Header'
 import LogoutBtn from './Header/LogoutBtn'
 import Logo from './Control/Logo'
 import Login from './Login/Login'
+import Register from './Register/Register'
 
 
 export {
@@ -16,5 +17,6 @@ export {
     Header,
     LogoutBtn,
     Logo,
-    Login
+    Login,
+    Register
 }

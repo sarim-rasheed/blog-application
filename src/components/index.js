@@ -5,6 +5,7 @@ import Footer from './Footer/Footer'
 import Header from './Header/Header'    
 import LogoutBtn from './Header/LogoutBtn'
 import Logo from './Control/Logo'
+import Login from './Login/Login'
 
 
 export {
@@ -14,5 +15,6 @@ export {
     Footer,
     Header,
     LogoutBtn,
-    Logo
+    Logo,
+    Login
 }

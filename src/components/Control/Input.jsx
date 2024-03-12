@@ -5,9 +5,9 @@ function Input({type="text", label, className = "", ...props},ref) {
   const id = useId();
 
   return (
-    <div>
-      {label && <label htmlFor={id}> {label} </label>}
-      <input type={type} className={` ${className}`} {...props}/>
+    <div className='w-full'>
+      {label && <label className=' text-2xl' htmlFor={id}> {label} </label>} <br/>
+      <input htmlFor={id} type={type} className={` my-5 ${className}`} {...props} ref={ref}/>
     </div>
   )
 }

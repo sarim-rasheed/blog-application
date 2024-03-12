@@ -8,11 +8,11 @@ const initialState = {
 
 
 const authSlice = createSlice({
-    name:'User',
+    name:'auth',
     initialState:initialState,
     reducers: {
         login: (state, action) => {
-            state.userDetail = action.payload.User,
+            state.userDetail = action.payload.user,
             state.status = true 
         },
         logout: (state, action) => {

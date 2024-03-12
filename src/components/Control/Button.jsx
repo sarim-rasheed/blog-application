@@ -5,7 +5,7 @@ function Button({text, bgColor = "bg-sky-600", className = "", textColor = "text
 
 
   return (
-  <button className={`${bgColor} ${textColor} ${className} rounded-lg w-16 h-12`} {...props}>{text}</button>
+  <button className={`${bgColor} ${textColor} ${className} rounded-lg `} {...props}>{text}</button>
   )
 }
 

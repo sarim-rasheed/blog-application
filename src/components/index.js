@@ -9,7 +9,7 @@ import Login from './Login/Login'
 import Register from './Register/Register'
 import Select from './Control/Select'
 import PostCard from './PostCard/PostCard'
-import Editor from './Control/Editor'
+import RTE from './Control/RTE'
 
 export {
     Button,
@@ -23,5 +23,5 @@ export {
     Register,
     Select,
     PostCard,
-    Editor
+    RTE
 }

@@ -4,7 +4,7 @@ import {Controller} from 'react-hook-form'
 import {Container} from '../index'
 
 
-function Editor({name, control, label, defaultValue=""}) {
+function RTE({name, control, label, defaultValue=""}) {
 
   return (
     <Container>
@@ -53,4 +53,4 @@ render={({field: {onChange}}) => (
   )
 }
 
-export default Editor
+export default RTE

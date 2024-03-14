@@ -37,6 +37,7 @@ function Register() {
     <Container>
       <div className='mx-auto w-1/2 h-144 rounded-xl shadow-2xl'>
        <div className=' mx-auto mt-20 w-1/2'> <Logo/></div>
+       {error && (<h1 className=' text-red-700 text-center'>error</h1>)}
       <form onSubmit={handleSubmit(registerHandler)}>
       <div className='mx-auto w-1/2 mt-10'>
         <Input className={'w-full h-10 border-b-2 border-sky-600 focus:outline-none'} 
